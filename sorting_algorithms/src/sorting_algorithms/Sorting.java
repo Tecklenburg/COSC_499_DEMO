@@ -19,6 +19,7 @@ public class Sorting{
 			arr[j+1] = key;
 		}
 		return arr;
+	}
 
 	public static void main (String[] args) {
 		Sorting sorter = new Sorting();
