@@ -14,6 +14,8 @@ public class Sorting{
 				}
 			}
 		}
+		return arr;
+	}
 	
 	public int[] insertionSort (int[] arr) {
 		for(int i=1; i<arr.length;i++) {
@@ -47,29 +49,29 @@ public class Sorting{
         
         
         // Run and measure Bubble Sort
-        long start1 = System.currentTimeMillis();
+        long start1 = System.nanoTime();
         int[] sorted1 = sorter.bubbleSort(arr1); 
-        long end1 = System.currentTimeMillis();
+        long end1 = System.nanoTime();
         
         System.out.print("The array got sorted by Bubble Sort to: [ ");
         for (int i = 0; i < sorted1.length; i++) {
         	System.out.print(sorted1[i] + " "); 
         }
         System.out.println("]");
-        System.out.println("It took " + (end1-start1) + " ms");
+        System.out.println("It took " + (end1-start1) + " ns");
         
         
         // Run and measure Insertion Sort
-        long start2 = System.currentTimeMillis();
+        long start2 = System.nanoTime();
         int[] sorted2 = sorter.insertionSort(arr2); 
-        long end2 = System.currentTimeMillis();
+        long end2 = System.nanoTime();
         
         System.out.print("The array got sorted by Insertion Sort to: [ ");
         for (int i = 0; i < sorted2.length; i++) {
         	System.out.print(sorted2[i] + " "); 
         }
         System.out.println("]");
-        System.out.println("It took " + (end2-start2) + " ms");
+        System.out.println("It took " + (end2-start2) + " ns");
         
 	}
 	
