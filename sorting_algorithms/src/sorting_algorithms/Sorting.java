@@ -4,9 +4,6 @@ import java.util.Random;
 
 public class Sorting{
 	public  int[] bubbleSort (int[] arr) {
-		arr[0]=0;
-		arr[1]=0;
-		arr[2]=0;
 		return arr;
 	}
 	
