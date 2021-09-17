@@ -2,6 +2,7 @@ package sorting_algorithms;
 
 import java.util.Random;
 
+// Program compare runtimes of bubble and insertion sort 
 public class Sorting{
 
 	public int[] bubbleSort (int[] arr) {
