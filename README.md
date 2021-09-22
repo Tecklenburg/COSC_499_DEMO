@@ -1,4 +1,4 @@
-# COSC_499_DEMO
+# COSC_499_DEMO (GITHUB)
 Just a demo to show I am using GitHub. Therefore I am building a simple java program that runs two sorting algorithms and compares there run time.
 
 ## Main Function
